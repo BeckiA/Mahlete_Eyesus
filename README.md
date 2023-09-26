@@ -1,4 +1,4 @@
-# lyrics_app
+# ማህሌተ ኢየሱስ
 
 ማህሌተ ኢየሱስ is a Lyrics Application for Chrstian Gospel Songs(Mezmurs) by different Gospel Singers
 If you do have  any recommendations or suggestions feel free to contact me at bereketabera2023@gmail.com
