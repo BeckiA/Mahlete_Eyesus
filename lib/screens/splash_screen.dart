@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:lyrics_app/screens/singers_screen.dart';
 
 import '../constants/colors.dart';
+import '../constants/image_strings.dart';
 
 class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
@@ -30,9 +31,10 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        alignment: Alignment.center,
         color: MEAccentColor,
-        child: Center(
-          child: Text('This is Splash'),
+        child: const Center(
+          child: Image(image: AssetImage(MELogo)),
         ),
       ),
     );
