@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lyrics_app/constants/colors.dart';
 import '../Utils/songs_helper.dart/songs_helper.dart';
 import '../models/singer.dart';
 import '../widgets/search_bar_widget.dart';
