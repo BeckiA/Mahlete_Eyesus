@@ -1,10 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lyrics_app/screens/singers_screen.dart';
-
 import '../constants/colors.dart';
 import '../constants/image_strings.dart';
+import '../widgets/bottom_navigation_bar.dart';
 
 class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
@@ -22,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => SingersPage(),
+            builder: (context) => BottomNavBar(),
           ));
     });
   }
