@@ -10,14 +10,44 @@ class SongHelper {
       Singer(name: 'ዘማሪ ሃዋዝ ተገኝ', photo: GSHawaz, singerId: 's-01', albums: [
         Albums(
             name: 'ይቅርታ',
-            photo: 'photo',
+            photo: yikirta,
             realeasedDate: DateTime.now(),
             albumNumber: 03,
             songs: [
               Song(
                   name: 'የአሜን ነው',
                   songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
-            ])
+            ]),
+        Albums(
+            name: 'የእረፍቴ ቦታ',
+            photo: yeErefteBota,
+            albumNumber: 02,
+            realeasedDate: DateTime.now(),
+            songs: [
+              Song(
+                  name: 'መሃናየም',
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
+            ]),
+        Albums(
+            name: 'ኖላዊ ሄር',
+            photo: nolawiHer,
+            albumNumber: 04,
+            realeasedDate: DateTime.now(),
+            songs: [
+              Song(
+                  name: 'ብወድህ',
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
+            ]),
+        Albums(
+            name: 'ልሻገረው',
+            photo: lshagerew,
+            albumNumber: 04,
+            realeasedDate: DateTime.now(),
+            songs: [
+              Song(
+                  name: 'ልሻገረው',
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
+            ]),
       ]),
       Singer(
           name: 'ዘማሪት ዘመናይ ጎሳዬ',

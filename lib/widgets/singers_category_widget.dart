@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lyrics_app/screens/song_albums.dart';
 
 import '../models/singer.dart';
 
@@ -25,7 +26,13 @@ class SingersCategoryWidget extends StatelessWidget {
             children: [
               Positioned.fill(
                 child: GestureDetector(
-                  onTap: () => print("Clicked"),
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) {
+                        return AlbumsScreen(singer: singer[index]);
+                      },
+                    ));
+                  },
                   child: Container(
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
