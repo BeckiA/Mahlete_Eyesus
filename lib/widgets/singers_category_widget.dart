@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lyrics_app/screens/song_albums.dart';
+import 'package:lyrics_app/screens/song_albums_screen.dart';
 
 import '../models/singer.dart';
 

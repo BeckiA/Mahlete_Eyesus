@@ -16,7 +16,13 @@ class SongHelper {
             songs: [
               Song(
                   name: 'የአሜን ነው',
-                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'}),
+              Song(
+                  name: 'የአሜን ነው',
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'}),
+              Song(
+                  name: 'የአሜን ነው',
+                  songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'}),
             ]),
         Albums(
             name: 'የእረፍቴ ቦታ',
@@ -62,7 +68,7 @@ class SongHelper {
                 songs: [
                   Song(
                       name: 'ካህኔ',
-                      songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'})
+                      songLyrics: {'lyrics': 'Ambenbfnbndbfbmnsjfjsjfjsj'}),
                 ])
           ]),
       Singer(name: 'Hawaz', photo: GSHawaz, singerId: 's-01', albums: [

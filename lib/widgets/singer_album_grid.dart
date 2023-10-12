@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lyrics_app/screens/song_titles_screen.dart';
 
 import '../models/singer.dart';
 
@@ -26,7 +27,17 @@ class SingerAlbumGrid extends StatelessWidget {
             ),
             itemCount: singer.albums.length,
             itemBuilder: (context, index) => GestureDetector(
-              onTap: () => print('HELLO'),
+              onTap: () => Navigator.push(context, MaterialPageRoute(
+                builder: (context) {
+                  var album = singer.albums[index];
+                  var albumName = singer.albums[index].name;
+                  return SongListScreen(
+                    songs: album.songs,
+                    albumName: albumName,
+                    singer: singer,
+                  );
+                },
+              )),
               child: Column(
                 children: [
                   Container(
