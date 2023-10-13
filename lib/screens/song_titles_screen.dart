@@ -16,9 +16,9 @@ class SongListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text(singer.albums[0].name),
-      // ),
+      appBar: AppBar(
+        title: Text(albumName.name),
+      ),
       body: ListView.builder(
         itemCount: songs.length,
         itemBuilder: (context, index) {
@@ -38,10 +38,10 @@ class SongListScreen extends StatelessWidget {
                 songs[index].name,
                 style: const TextStyle(fontSize: 21),
               ),
-              // subtitle: Text(
-              //   singer.name,
-              //   style: const TextStyle(fontSize: 16),
-              // ),
+              subtitle: Text(
+                singer.name,
+                style: const TextStyle(fontSize: 16),
+              ),
               trailing: const Icon(
                 Icons.arrow_right,
                 size: 30,

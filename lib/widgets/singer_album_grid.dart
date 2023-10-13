@@ -30,7 +30,7 @@ class SingerAlbumGrid extends StatelessWidget {
               onTap: () => Navigator.push(context, MaterialPageRoute(
                 builder: (context) {
                   var album = singer.albums[index];
-                  var albumName = singer.albums[index].name;
+                  var albumName = singer.albums[index];
                   return SongListScreen(
                     songs: album.songs,
                     albumName: albumName,
