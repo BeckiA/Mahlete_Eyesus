@@ -28,7 +28,8 @@ class SongListScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
                 color: MEWhiteColor,
               ),
-              margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+              margin: const EdgeInsets.only(
+                  left: 10, right: 10, bottom: 0, top: 15),
               padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
               child: GestureDetector(
                 onTap: () {
